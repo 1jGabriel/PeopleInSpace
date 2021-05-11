@@ -4,7 +4,6 @@ buildscript {
         mavenLocal() {
             content {
                 includeGroup("io.insert-koin")
-                includeGroup("co.touchlab")
             }
         }
         google()
@@ -24,7 +23,7 @@ allprojects {
         mavenLocal() {
             content {
                 includeGroup("io.insert-koin")
-                includeGroup("co.touchlab")
+//                includeGroup("co.touchlab")
             }
         }
         google()
